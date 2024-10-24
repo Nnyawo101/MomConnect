@@ -1,0 +1,46 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin:0;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background5.png');
+    background-size: cover;
+    background-position: center;
+
+}
+form{
+    max-width: 400px;
+    margin-bottom: 8px;
+    font-weight:bold;
+}
+label{
+    display:block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.textbox{
+    width:100%;
+    padding: 10px;
+    border:1px solid black;
+    border-radius:4px;
+
+}
+.textbox:focus{
+    border-color: black;
+    outline: none;
+
+}
+.styled-button a{
+    background-color: transparent;
+    border:1px solid black;
+    color:black;
+    padding:15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
